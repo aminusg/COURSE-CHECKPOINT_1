@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.exercises-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 660px;
+    height: auto;
+    margin: 0 auto;
+ 
+}
+.gridOne {
+    background-color: rgb(234, 239, 234);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    width: 100%;
+}
+.gridTwo {
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin: 20px;
+    width: 100%;
+}
+.cell-1 {
+    background-color: red;
+}
+.cell-2 {
+    background-color: rgb(47, 0, 255);
+}
+.cell-3 {
+    background-color: rgb(255, 251, 0);
+}
+.gridThree {
+    background-color: rgb(234, 239, 234);
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+}
+.cita {
+    height: 75px;
+    padding: 0 10px;
+    text-align: left;
+}
+.foto {
+    height: 225px;
+    width: 500px;
+    overflow: hidden;
+}
+.foto img {
+    height: auto;
+    width: 500px;
+}
+.gridFour {
+    background-color: rgb(70, 183, 70);
+    display:grid;
+    width: 500px;
+    height: fit-content;
+    margin: 20px;
+}
+.gridFour #cita-2-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gridFour div {
+    margin-top:10px;
+}
+.gridFive {
+    background-color: rgb(234, 239, 234);
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    
+}
+.gridFive #cita-3-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#cita-3-data {
+    text-align: center;
+    margin: 15px;
+}
+#cita-3-data img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(249, 247, 247);
+    margin: 20px;
+} 
+.gridSix p {
+    font-family: Aboreto;
+}
+
